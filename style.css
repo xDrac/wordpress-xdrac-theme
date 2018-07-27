@@ -1,0 +1,76 @@
+/*
+Theme Name: xDrac
+Author: xDrac
+Author URL: http://www.xdrac.com/
+Version: 1.0
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #141214;
+}
+
+a:link,
+a:visited {
+  color: #d64444;
+  text-decoration: none;
+}
+
+
+/* General Layout */
+div.container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* General Header */
+.site-header {
+  overflow: hidden;
+}
+
+.site-header .logo {
+  float: left;
+  width: 300px;
+}
+
+.menu-navigation {
+  float: right;
+}
+
+
+/* Navigation Menus */
+.site-header .menu-nagivation nav.site-nav .menu-primary-menu-links-container .menu {
+  height: 100px;
+  vertical-align: middle;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after {content: ""; display: table;}
+.site-nav ul:after {clear: both;}
+.site-nav ul { *zoom: 1;}
+
+.site-nav ul li {
+    list-style: none;
+    float: right;
+}
+
+/* Site Header Menu */
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: block;
+    padding: 10px 18px;
+}
+
+
+/* Site Footer Menu */
+.site-footer nav ul li {
+    margin-right: 10px;
+    padding-right: 10px;
+}
